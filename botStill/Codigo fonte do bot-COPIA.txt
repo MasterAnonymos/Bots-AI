@@ -1,0 +1,38 @@
+import discord
+from discord.ext import commands
+from discord.ext.commands import Bot
+import asyncio
+import chalk
+
+bot = commands.Bot(command_prefix='#')
+
+@bot.event 
+async def on_ready():
+    print ("HORA DO SHOW PORRA!")
+    print ("TA SAINDO DA JAULA O MONSTRO!!! " + bot.user.name)
+    print ("È 13 MEMO PORRA.BIRRRRRRRRRlll. ID: " + bot.user.id)
+
+@bot.command(pass_context=True) 
+async def ping(ctx):
+    await bot.say(":middle_finger:  Pong filho da puta!!") 
+    print ("*************È TUDO NOSSO*******************")
+
+@bot.command(pass_context=True) 
+async def Ping(ctx):
+    await bot.say(":middle_finger:  Pong filho da puta!!")
+    print ("*************È TUDO NOSSO*******************")
+
+@bot.command(pass_context=True) 
+async def info(ctx, user: discord.Member): 
+    await bot.say("Nome do Usuário: {}".format(user.name)) 
+    await bot.say("ID do Usuário: {}".format(user.id))
+    await bot.say("Status: {}".format(user.status))
+    await bot.say("Cargo Ocupado: {}".format(user.top_role))
+    await bot.say("Parte da Alcateia desde: {}".format(user.joined_at))
+
+@bot.command(pass_context=True)
+async def kick(ctx, user: discord.Member):
+    await bot.say(":sob:  Pede pra nerfar NUB!, {}. Game Over!".format(user.name)) 
+    await bot.kick(user)
+
+bot.run("NDU1ODcwNzY0MjE0OTEwOTc2.DgG9Zg.hZvu5sxy6jI9Yaz6Aq1s7QMMcHM")

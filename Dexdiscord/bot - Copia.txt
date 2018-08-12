@@ -1,0 +1,257 @@
+import discord
+from discord.ext import commands
+from discord.ext.commands import Bot
+import asyncio
+import chalk
+import requests
+import io
+
+bot = commands.Bot (command_prefix ='d!')
+bot.load_extension('cog')
+
+@bot.event 
+async def on_ready():
+    print ("Dexcord online!")
+    print ("To pronto:" + bot.user.name)
+    print ("ID:" + bot.user.id)
+
+
+@bot.command(pass_context=True)
+async def bulbasaur(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0x01DF3A) 
+    embed.add_field(name="Nome: Bulbasaur", value="Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.", inline=True)
+    embed.add_field(name="Número:", value="001", inline=True)
+    embed.add_field(name="Altura:", value="0,7m", inline=True)
+    embed.add_field(name="Categotia:",  value="Seed", inline=True)
+    embed.add_field(name="Tipo:",   value="Grass/Poison", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Fire/Flying/Ice/Physhic", inline=True)
+    embed.add_field(name="Evoluções:",  value="Bulbasaur ----> Ivysaur ----> Venusaur", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png')
+    await bot.say (embed=embed)
+   
+@bot.command(pass_context=True)
+async def Bulbasaur(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0x01DF3A) 
+    embed.add_field(name="Nome: Bulbasaur", value="Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.", inline=True)
+    embed.add_field(name="Número:", value="001", inline=True)
+    embed.add_field(name="Altura:", value="0,7m", inline=True)
+    embed.add_field(name="Categotia:",  value="Seed", inline=True)
+    embed.add_field(name="Tipo:",   value="Grass/Poison", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Fire/Flying/Ice/Physhic", inline=True)
+    embed.add_field(name="Evoluções:",  value="Bulbasaur ----> Ivysaur ----> Venusaur", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png')
+    await bot.say (embed=embed)
+
+@bot.command(pass_context=True)
+async def Ivysaur(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0x01DF3A) 
+    embed.add_field(name="Nome: Ivysaur", value="There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.", inline=True)
+    embed.add_field(name="Número:", value="002", inline=True)
+    embed.add_field(name="Altura:", value="1,0 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Seed", inline=True)
+    embed.add_field(name="Tipo:",   value="Grass/Poison", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Fire/Flying/Ice/Physhic", inline=True)
+    embed.add_field(name="Evoluções:",  value="Bulbasaur ----> Ivysaur ----> Venusaur", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png')
+    await bot.say (embed=embed)
+
+@bot.command(pass_context=True)
+async def ivysaur(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0x01DF3A) 
+    embed.add_field(name="Nome: Ivysaur", value="There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.", inline=True)
+    embed.add_field(name="Número:", value="002", inline=True)
+    embed.add_field(name="Altura:", value="1,0 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Seed", inline=True)
+    embed.add_field(name="Tipo:",   value="Grass/Poison", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Fire/Flying/Ice/Physhic", inline=True)
+    embed.add_field(name="Evoluções:",  value="Bulbasaur ----> Ivysaur ----> Venusaur", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png')
+    await bot.say (embed=embed)
+
+@bot.command(pass_context=True)
+async def Venusaur(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0x01DF3A) 
+    embed.add_field(name="Nome: Venusaur", value="There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.", inline=True)
+    embed.add_field(name="Número:", value="003", inline=True)
+    embed.add_field(name="Altura:", value="2,0 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Seed", inline=True)
+    embed.add_field(name="Tipo:",   value="Grass/Poison", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Fire/Flying/Ice/Physhic", inline=True)
+    embed.add_field(name="Evoluções:",  value="Bulbasaur ----> Ivysaur ----> Venusaur", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png')
+    await bot.say (embed=embed)
+
+@bot.command(pass_context=True)
+async def venusaur(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0x01DF3A) 
+    embed.add_field(name="Nome: Venusaur", value="There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.", inline=True)
+    embed.add_field(name="Número:", value="003", inline=True)
+    embed.add_field(name="Altura:", value="2,0 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Seed", inline=True)
+    embed.add_field(name="Tipo:",   value="Grass/Poison", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Fire/Flying/Ice/Physhic", inline=True)
+    embed.add_field(name="Evoluções:",  value="Bulbasaur ----> Ivysaur ----> Venusaur", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png')
+    await bot.say (embed=embed)
+
+@bot.command(pass_context=True)
+async def Charmander(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0xF80000) 
+    embed.add_field(name="Nome: Charmander", value="The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.", inline=True)
+    embed.add_field(name="Número:", value="004", inline=True)
+    embed.add_field(name="Altura:", value="0,6 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Lizard", inline=True)
+    embed.add_field(name="Tipo:",   value="Fire", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Ground/Rock/Water", inline=True)
+    embed.add_field(name="Evoluções:",  value="Charmander ----> Charmeleon ----> Chalizard", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png')
+    await bot.say (embed=embed)
+
+@bot.command(pass_context=True)
+async def charmander(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0xF80000) 
+    embed.add_field(name="Nome: Charmander", value="The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.", inline=True)
+    embed.add_field(name="Número:", value="004", inline=True)
+    embed.add_field(name="Altura:", value="0,6 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Lizard", inline=True)
+    embed.add_field(name="Tipo:",   value="Fire", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Ground/Rock/Water", inline=True)
+    embed.add_field(name="Evoluções:",  value="Charmander ----> Charmeleon ----> Chalizard", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png')
+    await bot.say (embed=embed)
+
+@bot.command(pass_context=True)
+async def Charmeleon(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0xF80000) 
+    embed.add_field(name="Nome: Charmeleon", value="Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.", inline=True)
+    embed.add_field(name="Número:", value="005", inline=True)
+    embed.add_field(name="Altura:", value="1,1 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Lizard", inline=True)
+    embed.add_field(name="Tipo:",   value="Fire", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Ground/Rock/Water", inline=True)
+    embed.add_field(name="Evoluções:",  value="Charmander ----> Charmeleon ----> Chalizard", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png')
+    await bot.say (embed=embed)
+
+@bot.command(pass_context=True)
+async def charmeleon(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0xF80000) 
+    embed.add_field(name="Nome: Charmeleon", value="Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.", inline=True)
+    embed.add_field(name="Número:", value="005", inline=True)
+    embed.add_field(name="Altura:", value="1,1 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Lizard", inline=True)
+    embed.add_field(name="Tipo:",   value="Fire", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Ground/Rock/Water", inline=True)
+    embed.add_field(name="Evoluções:",  value="Charmander ----> Charmeleon ----> Chalizard", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png')
+    await bot.say (embed=embed)
+
+@bot.command(pass_context=True)
+async def Charizard(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0xF80000) 
+    embed.add_field(name="Nome: Charizard", value="Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.", inline=True)
+    embed.add_field(name="Número:", value="006", inline=True)
+    embed.add_field(name="Altura:", value="1,7 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Lizard", inline=True)
+    embed.add_field(name="Tipo:",   value="Fire", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Ground/Rock/Water", inline=True)
+    embed.add_field(name="Evoluções:",  value="Charmander ----> Charmeleon ----> Chalizard", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png')
+    await bot.say (embed=embed)
+
+ 
+@bot.command(pass_context=True)
+async def charizard(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0xF80000) 
+    embed.add_field(name="Nome: Charizard", value="Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.", inline=True)
+    embed.add_field(name="Número:", value="006", inline=True)
+    embed.add_field(name="Altura:", value="1,7 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Lizard", inline=True)
+    embed.add_field(name="Tipo:",   value="Fire", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Ground/Rock/Water", inline=True)
+    embed.add_field(name="Evoluções:",  value="Charmander ----> Charmeleon ----> Chalizard", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png')
+    await bot.say (embed=embed)
+
+@bot.command(pass_context=True)
+async def Squirtle(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0x1D10DA) 
+    embed.add_field(name="Nome: Squirtle", value="Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.", inline=True)
+    embed.add_field(name="Número:", value="007", inline=True)
+    embed.add_field(name="Altura:", value="0,5 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Tiny Turtle", inline=True)
+    embed.add_field(name="Tipo:",   value="Water", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Eletric/Grass", inline=True)
+    embed.add_field(name="Evoluções:",  value="Squirtle ----> Wartortle ----> Blastoise", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png')
+    await bot.say (embed=embed)
+
+@bot.command(pass_context=True)
+async def squirtle(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0x1D10DA) 
+    embed.add_field(name="Nome: Squirtle", value="Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.", inline=True)
+    embed.add_field(name="Número:", value="007", inline=True)
+    embed.add_field(name="Altura:", value="0,5 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Tiny Turtle", inline=True)
+    embed.add_field(name="Tipo:",   value="Water", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Eletric/Grass", inline=True)
+    embed.add_field(name="Evoluções:",  value="Squirtle ----> Wartortle ----> Blastoise", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png')
+    await bot.say (embed=embed)
+
+@bot.command(pass_context=True)
+async def Wartortle(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0x1D10DA) 
+    embed.add_field(name="Nome: Wartortle", value="Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.", inline=True)
+    embed.add_field(name="Número:", value="008", inline=True)
+    embed.add_field(name="Altura:", value="1,0 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Turtle", inline=True)
+    embed.add_field(name="Tipo:",   value="Water", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Eletric/Grass", inline=True)
+    embed.add_field(name="Evoluções:",  value="Squirtle ----> Wartortle ----> Blastoise", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png')
+    await bot.say (embed=embed)
+
+
+@bot.command(pass_context=True)
+async def wartortle(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0x1D10DA) 
+    embed.add_field(name="Nome: Wartortle", value="Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.", inline=True)
+    embed.add_field(name="Número:", value="008", inline=True)
+    embed.add_field(name="Altura:", value="1,0 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Turtle", inline=True)
+    embed.add_field(name="Tipo:",   value="Water", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Eletric/Grass", inline=True)
+    embed.add_field(name="Evoluções:",  value="Squirtle ----> Wartortle ----> Blastoise", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png')
+    await bot.say (embed=embed)
+
+
+@bot.command(pass_context=True)
+async def Blastoise(ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0x1D10DA) 
+    embed.add_field(name="Nome: Blastoise ", value="Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.", inline=True)
+    embed.add_field(name="Número:", value="009", inline=True)
+    embed.add_field(name="Altura:", value="1,6 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Shellfish", inline=True)
+    embed.add_field(name="Tipo:",   value="Water", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Eletric/Grass", inline=True)
+    embed.add_field(name="Evoluções:",  value="Squirtle ----> Wartortle ----> Blastoise", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png')
+    await bot.say (embed=embed)
+
+@bot.command(pass_context=True)
+async def blastoise(self, ctx):
+    embed = discord.Embed(title="{}".format(bot.user.name),descripition ="", color = 0x1D10DA) 
+    embed.add_field(name="Nome: Blastoise ", value="Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.", inline=True)
+    embed.add_field(name="Número:", value="009", inline=True)
+    embed.add_field(name="Altura:", value="1,6 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Shellfish", inline=True)
+    embed.add_field(name="Tipo:",   value="Water", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Eletric/Grass", inline=True)
+    embed.add_field(name="Evoluções:",  value="Squirtle ----> Wartortle ----> Blastoise", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png')
+    await bot.say (embed=embed)
+
+bot.run("NDU2NDk1OTY1NTU4NDA3MTY4.DgLdmA.0GXt9zU7G3NsIIzdJ7g3Gc0peVY")
+

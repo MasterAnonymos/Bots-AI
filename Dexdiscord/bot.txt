@@ -1,0 +1,78 @@
+import discord
+from discord.ext import commands
+from discord.ext.commands import Bot
+import asyncio
+import chalk
+import requests
+import io
+
+
+bot = commands.Bot (command_prefix ='d!')
+bot.remove_command('help')
+bot.load_extension('cog')
+
+
+
+@bot.event 
+async def on_ready(pass_context=True):#000
+    print ("Dexcord online!")
+    print ("To pronto:" + bot.user.name)
+    print ("ID:" + bot.user.id)
+
+@bot.command(pass_context=True)
+async def bulbasaur(ctx): #001
+    embed = discord.Embed(title="{}".format("Pokémon"),descripition ="", color = 0x01DF3A) 
+    embed.add_field(name="Nome: Bulbasaur", value="Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.", inline=True)
+    embed.add_field(name="Nº :", value="001", inline=True)
+    embed.add_field(name="Altura:", value="0,7m", inline=True)
+    embed.add_field(name="Categoria:",  value="Seed", inline=True)
+    embed.add_field(name="Tipo:",   value="Grass/Poison", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Fire/Flying/Ice/Physhic", inline=True)
+    embed.add_field(name="Evoluções:",  value="Bulbasaur ----> Ivysaur ----> Venusaur", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png')
+    await bot.say (embed=embed)
+   
+@bot.command(pass_context=True)
+async def Bulbasaur(ctx): #001
+    embed = discord.Embed(title="{}".format("Pokémon"),descripition ="", color = 0x01DF3A) 
+    embed.add_field(name="Nome: Bulbasaur", value="Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.", inline=True)
+    embed.add_field(name="Nº :", value="001", inline=True)
+    embed.add_field(name="Altura:", value="0,7m", inline=True)
+    embed.add_field(name="Categotia:",  value="Seed", inline=True)
+    embed.add_field(name="Tipo:",   value="Grass/Poison", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Fire/Flying/Ice/Physhic", inline=True)
+    embed.add_field(name="Evoluções:",  value="Bulbasaur ----> Ivysaur ----> Venusaur", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png')
+    await bot.say (embed=embed)
+
+@bot.command(pass_context=True)
+async def Ivysaur(ctx): #002
+    embed = discord.Embed(title="{}".format("Pokémon"),descripition ="", color = 0x01DF3A) 
+    embed.add_field(name="Nome: Ivysaur", value="There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.", inline=True)
+    embed.add_field(name="Nº :", value="002", inline=True)
+    embed.add_field(name="Altura:", value="1,0 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Seed", inline=True)
+    embed.add_field(name="Tipo:",   value="Grass/Poison", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Fire/Flying/Ice/Physhic", inline=True)
+    embed.add_field(name="Evoluções:",  value="Bulbasaur ----> Ivysaur ----> Venusaur", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png')
+    await bot.say (embed=embed)
+
+@bot.command(pass_context=True)
+async def ivysaur(ctx): #002
+    embed = discord.Embed(title="{}".format("Pokémon"),descripition ="", color = 0x01DF3A) 
+    embed.add_field(name="Nome: Ivysaur", value="There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.", inline=True)
+    embed.add_field(name="Nº :", value="002", inline=True)
+    embed.add_field(name="Altura:", value="1,0 m", inline=True)
+    embed.add_field(name="Categotia:",  value="Seed", inline=True)
+    embed.add_field(name="Tipo:",   value="Grass/Poison", inline=True)
+    embed.add_field(name="Fraquezas:",  value="Fire/Flying/Ice/Physhic", inline=True)
+    embed.add_field(name="Evoluções:",  value="Bulbasaur ----> Ivysaur ----> Venusaur", inline=True)
+    embed.set_thumbnail(url='https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png')
+    await bot.say (embed=embed)
+
+
+
+bot.run("MzAxMzk1NDU3ODIzNzM1ODEw.DgSy9Q.3_O1bENJTM_MTXd6H0bDBg9gorM")
+ 
+

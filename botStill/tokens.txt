@@ -1,0 +1,13 @@
+
+
+MzAxMzk1NDU3ODIzNzM1ODEw.DgSy9Q.3_O1bENJTM_MTXd6H0bDBg9gorM -drumond
+
+
+NDU3MDAxMjc2NzQwNDY4NzQw.DgTEJg.oL3DDICTRjG9xohdVeCC-tdBVh8 -bot token
+
+MzAxMzk1NDU3ODIzNzM1ODEw.DgTFIg.w7u0kPwuSwddvvluLlfQrb3kUHo -bot
+
+
+Curl https://discordapp.com/api/oauth2/applications/457022038998122525/bot
+Curl @{Authorization = MzAxMzk1NDU3ODIzNzM1ODEw.DgSy9Q.3_O1bENJTM_MTXd6H0bDBg9gorM ; Content = application/json}
+Curl Post{token:MzAxMzk1NDU3ODIzNzM1ODEw.DgTFIg.w7u0kPwuSwddvvluLlfQrb3kUHo}

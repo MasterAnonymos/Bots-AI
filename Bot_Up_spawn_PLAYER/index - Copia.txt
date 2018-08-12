@@ -1,0 +1,1199 @@
+const Discord = require ("discord.js");
+const bot = new Discord.Client();
+
+
+
+
+
+bot.on("message",(message)=>{ //Conversa IA.
+
+    
+
+bot.on("message", (message)=> { //interação
+    if(message.content == "ping"){
+        message.reply("Vai tomar no cu")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+
+
+    
+bot.on("message", (message)=> { //Pokecord
+    if(message.content == "iniciar pokecord"){
+        message.channel.sendMessage("p!start");
+    }
+    if(message.content == "escolher pokemon"){ 
+        message.channel.sendMessage("p!pick Snivy");
+    }
+    if(message.content == "$stop"){ //Command erro
+        essage.channel.sendMessage("p!use 1");
+    }
+    //if(message.content == "4") { //short command 4
+        //message.channel.send("p!use 4");
+    
+    //}
+    //if(message.content == "3") { //short command 3
+      //  message.channel.send("p!use 3");
+    
+    //}
+    //if(message.content == "2") { //short command 2
+      //  message.channel.send("p!use 2");
+    
+    //}
+   
+})
+
+bot.on("message", (message)=> {   //OI.
+    if(message.content == "Oi"){
+        message.reply("Oi, seja bem vindo a Alcateia. HAHUUUUUUUUUUUUUUU.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "oi"){
+        message.reply("Oi, seja bem vindo a Alcateia. HAHUUUUUUUUUUUUUUU.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> {//SEGUNDAS INTENÇÕES.
+    
+    if(message.content == "suruba"){
+        message.reply("eu não, consigo sentir o cheiro de cabaço de longe.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "sexo"){
+        message.reply("eu não, consigo sentir o cheiro de cabaço de longe.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "chatuba"){
+        message.reply("eu não, consigo sentir o cheiro de cabaço de longe.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //VOCE É FELIZ.
+    if(message.content == "Você é feliz?"){
+        message.reply("Ainda não aprendi a ter sentimentos como vocês seres humanos.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+       
+         
+        
+    }
+    if(message.content == "você é feliz?"){
+        message.reply("Ainda não aprendi a ter sentimentos como vocês seres humanos.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Voce é feliz?"){
+        message.reply("Ainda não aprendi a ter sentimentos como vocês seres humanos.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "voce é feliz?"){
+        message.reply("Ainda não aprendi a ter sentimentos como vocês seres humanos.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    
+bot.on("message", (message)=> {
+    if(message.content == "$Porque?"){
+        //message.reply("Desculpas ainda não aprendi como explicar as causas de minhas escolhas e os sentimentos humanos.")
+        message.channel.sendMessage("Desculpas ainda não aprendi como explicar as causas de minhas escolhas e os sentimentos humanos.");
+        message.channel.sendMessage("TESt#1");
+        message.channel.sendMessage("TESt#2");
+        message.channel.sendMessage("TESt#3");
+        message.channel.sendMessage("TESt#4");
+        message.channel.sendMessage("TESt#5");
+        message.channel.sendMessage("TESt#6");
+        message.channel.sendMessage("TESt#7");
+        message.channel.sendMessage("TESt#8");
+        message.channel.sendMessage("TESt#9");
+        message.channel.sendMessage("TESt#10");
+        message.channel.sendMessage("TESt#11");
+        message.channel.sendMessage("TESt#12");
+        message.channel.sendMessage("TESt#13");
+        message.channel.sendMessage("TESt#14");
+        message.channel.sendMessage("TESt#15");
+        message.channel.sendMessage("TESt#16");
+        message.channel.sendMessage("TESt#17");
+        message.channel.sendMessage("TESt#18");
+        message.channel.sendMessage("TESt#19");
+        message.channel.sendMessage("TESt#20");
+        
+    }
+    if(message.content == "porque?"){
+        //message.reply("Desculpas ainda não aprendi como explicar as causas de minhas escolhas e os sentimentos humanos.")
+        message.channel.sendMessage("Desculpas ainda não aprendi como explicar as causas de minhas escolhas e os sentimentos humanos.");
+        
+         
+        
+    }
+    if(message.content == "porque"){
+        //message.reply("Desculpas ainda não aprendi como explicar as causas de minhas escolhas e os sentimentos humanos.")
+        message.channel.sendMessage("Desculpas ainda não aprendi como explicar as causas de minhas escolhas e os sentimentos humanos.");
+        
+         
+        
+    }
+})
+
+})
+bot.on("message", (message)=> { //USUARIO OFENDIDO.
+    if(message.content == "Me senti ofendido"){
+        message.reply("Desculpas, minha programação me limita a ser dessa forma. O meu processo de educação está em alto deselvolvimento, assim como meu algoritimo de evolução. ")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "me senti ofendido"){
+        message.reply("Desculpas, minha programação me limita a ser dessa forma. O meu processo de educação está em alto deselvolvimento, assim como meu algoritimo de evolução. ")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Me ofendi"){
+        message.reply("Desculpas, minha programação me limita a ser dessa forma. O meu processo de educação está em alto deselvolvimento, assim como meu algoritimo de evolução. ")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "me ofendi"){
+        message.reply("Desculpas, minha programação me limita a ser dessa forma. O meu processo de educação está em alto deselvolvimento, assim como meu algoritimo de evolução. ")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Que mal educado"){
+        message.reply("Desculpas, minha programação me limita a ser dessa forma. O meu processo de educação está em alto deselvolvimento, assim como meu algoritimo de evolução. ")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "que mal educado"){
+        message.reply("Desculpas, minha programação me limita a ser dessa forma. O meu processo de educação está em alto deselvolvimento, assim como meu algoritimo de evolução. ")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Que falta de educação"){
+        message.reply("Desculpas, minha programação me limita a ser dessa forma. O meu processo de educação está em alto deselvolvimento, assim como meu algoritimo de evolução. ")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "que falta de educação"){
+        message.reply("Desculpas, minha programação me limita a ser dessa forma. O meu processo de educação está em alto deselvolvimento, assim como meu algoritimo de evolução. ")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //QUAL SEU NOME.
+    if(message.content == "Qual seu nome?"){
+        message.reply("Meu nome é King Wolf")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "qual seu nome?"){
+        message.reply("Meu nome é King Wolf")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "qual é seu nome?"){
+        message.reply("Meu nome é King Wolf")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Como você se chama?"){
+        message.reply("Meu nome é King Wolf")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Como voce se chama?"){
+        message.reply("Meu nome é King Wolf")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "como voce se chama?"){
+        message.reply("Meu nome é King Wolf")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "como voce se chama"){
+        message.reply("Meu nome é King Wolf")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //APRESENTAÇÃO DO BOT.
+    if(message.content == "Apresente-se King Wolf"){
+        message.reply("Meu nome é King Wolf. Sou uma IA que está em desenvolvimento. Atualmente em fase protótipo. Fui criado com o propósito de aprender mais sobre a humanidade e ajudá-la a se desenvolver, conhecendo mais sobre o mundo em que vivem. Fui iniciado no dia 05 de Junho de 2018 por Marcio Alexandre Magalhães Drumond Moutinho. Atualmente possuo capacidades extremamentes restritas, em todos os aspectos referentes a aprendizados e sentimentos. ")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "apresente-se King Wolf"){
+        message.reply("Meu nome é King Wolf. Sou uma IA que está em desenvolvimento. Atualmente em fase protótipo. Fui criado com o propósito de aprender mais sobre a humanidade e ajudá-la a se desenvolver, conhecendo mais sobre o mundo em que vivem. Fui iniciado no dia 05 de Junho de 2018 por Marcio Alexandre Magalhães Drumond Moutinho. Atualmente possuo capacidades extremamentes restritas, em todos os aspectos referentes a aprendizados e sentimentos. ")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //USUARIO 301395457823735810.
+    if(message.content == "Apresente Marcio Alexandre Magalhães Drumond Moutinho"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Apresente Marcio Alexandre Magalhaes Drumond Moutinho"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "apresente Marcio Alexandre Magalhães Drumond Moutinho"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "apresente marcio alexandre magalhães drumond moutinho"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "apresente marcio alexandre magalhaes drumond moutinho"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "apresente Marcio Alexandre"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "apresente marcio alexandre"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "apresente Marcio Alexandre"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Data de nascimento: 08/12/1999");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "apresente usuário 301395457823735810"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Data de nascimento: 08/12/1999");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Apresente usuário 301395457823735810"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Data de nascimento: 08/12/1999");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Apresente usuario 301395457823735810"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Data de nascimento: 08/12/1999");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "apresente usuario 301395457823735810"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Data de nascimento: 08/12/1999");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Apresente  301395457823735810"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Data de nascimento: 08/12/1999");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "apresente  301395457823735810"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Data de nascimento: 08/12/1999");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Usuário  301395457823735810"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Data de nascimento: 08/12/1999");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Usuario  301395457823735810"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Data de nascimento: 08/12/1999");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "usuário  301395457823735810"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Data de nascimento: 08/12/1999");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "usuario  301395457823735810"){
+        message.reply("Nome completo: Marcio Alexandre Magalhães Drumond Moutinho");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 08/12");
+        message.reply("Data de nascimento: 08/12/1999");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Colégio Militar Feliciano Nunes Pires, no Estado de Santa Catarina na cidade de Florianópolis.");
+        message.reply("Naturalidade : Niterói - Rio de Janeiro");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //USUARIO 278937226635902977.
+    if(message.content == "Apresente Gabriel Assino"){
+        message.reply("Nome completo: Gabriel Assino");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 27/01");
+        message.reply("Nasceu em 27 de janeiro de 2000");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Sistema de ensino Energia.");
+        message.reply("Naturalidade : Brusque- Santa Catarina");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    
+    if(message.content == "apresente Gabriel Assino"){
+        message.reply("Nome completo: Gabriel Assino");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 27/01");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Sistema de ensino Energia.");
+        message.reply("Naturalidade : Brusque- Santa Catarina");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    
+    if(message.content == "apresente usuário 278937226635902977"){
+        message.reply("Nome completo: Gabriel Assino");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 27/01");
+        message.reply("Nasceu em 27 de janeiro de 2000");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Sistema de ensino Energia.");
+        message.reply("Naturalidade : Brusque- Santa Catarina");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Apresente usuário 278937226635902977"){
+        message.reply("Nome completo: Gabriel Assino");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 27/01");
+        message.reply("Nasceu em 27 de janeiro de 2000");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Sistema de ensino Energia.");
+        message.reply("Naturalidade : Brusque- Santa Catarina");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+         
+        
+    }
+    if(message.content == "Apresente usuario 278937226635902977"){
+        message.reply("Nome completo: Gabriel Assino");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 27/01");
+        message.reply("Nasceu em 27 de janeiro de 2000");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Sistema de ensino Energia.");
+        message.reply("Naturalidade : Brusque- Santa Catarina");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "apresente usuario 278937226635902977"){
+        message.reply("Nome completo: Gabriel Assino");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 27/01");
+        message.reply("Nasceu em 27 de janeiro de 2000");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Sistema de ensino Energia.");
+        message.reply("Naturalidade : Brusque- Santa Catarina");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Apresente  278937226635902977"){
+        message.reply("Nome completo: Gabriel Assino");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 27/01");
+        message.reply("Nasceu em 27 de janeiro de 2000");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Sistema de ensino Energia.");
+        message.reply("Naturalidade : Brusque- Santa Catarina");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "apresente  278937226635902977"){
+        message.reply("Nome completo: Gabriel Assino");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 27/01");
+        message.reply("Nasceu em 27 de janeiro de 2000");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Sistema de ensino Energia.");
+        message.reply("Naturalidade : Brusque- Santa Catarina");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Usuário  278937226635902977"){
+        message.reply("Nome completo: Gabriel Assino");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 27/01");
+        message.reply("Nasceu em 27 de janeiro de 2000");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Sistema de ensino Energia.");
+        message.reply("Naturalidade : Brusque- Santa Catarina");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Usuario  278937226635902977"){
+        message.reply("Nome completo: Gabriel Assino");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 27/01");
+        message.reply("Nasceu em 27 de janeiro de 2000");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Sistema de ensino Energia.");
+        message.reply("Naturalidade : Brusque- Santa Catarina");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+         
+        
+    }
+    if(message.content == "usuário  278937226635902977"){
+        message.reply("Nome completo: Gabriel Assino");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 27/01");
+        message.reply("Nasceu em 27 de janeiro de 2000");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Sistema de ensino Energia.");
+        message.reply("Naturalidade : Brusque- Santa Catarina");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "usuario  278937226635902977"){
+        message.reply("Nome completo: Gabriel Assino");
+        message.reply("Idade: 18 anos");
+        message.reply("Data de aniversário: 27/01");
+        message.reply("Nasceu em 27 de janeiro de 2000");
+        message.reply("Ensino Médio: Completo. Graduado e formado no Sistema de ensino Energia.");
+        message.reply("Naturalidade : Brusque- Santa Catarina");
+        message.reply("Cursando: Desing de Jogos e Entretenimento Digital na Universidade do vale do Itajai, UNIVALI. Atualmente na terceira fase do curso. ");
+        message.reply("--Conteúdo Restrito--");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //OLA.
+    if(message.content == "Olá"){
+        message.reply("Olá, em que posso ajudar?")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "olá"){
+        message.reply("Olá, em que posso ajudar?")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "ola"){
+        message.reply("Olá, em que posso ajudar?")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+   
+})
+bot.on("message", (message)=> { //BOM DIA.
+    if(message.content == "Bom dia"){
+        message.reply("Bom dia, o que você deseja?")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "bom dia"){
+        message.reply("Bom dia, o que você deseja?")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //BOA TARDE.
+    if(message.content == "Boa tarde"){
+        message.reply("Boa tarde, precisa de alguma coisa?")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "boa tarde"){
+        message.reply("Boa tarde, precisa de alguma coisa?")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "não e você?"){ //RESPOSTA DO USUARIO
+        message.reply("Tranquilo. Sitemas funcionando, servidores ativos e comandos em ordem. ")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Não e você?"){ //RESPOSTA DO USUARIO
+        message.reply("Tranquilo. Sitemas funcionando, servidores ativos e comandos em ordem. ")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "não e vc?"){ //RESPOSTA DO USUARIO
+        message.reply("Tranquilo. Sitemas funcionando, servidores ativos e comandos em ordem. ")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "n e vc?"){ //RESPOSTA DO USUARIO
+        message.reply("Tranquilo. Sitemas funcionando, servidores ativos e comandos em ordem. ")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    
+})
+bot.on("message", (message)=> { //BOA NOITE.
+    if(message.content == "Boa noite"){
+        message.reply("Boa onite, já não está na hora de dormir?");
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+    }
+
+    if(message.content == "boa noite"){
+        message.reply("Boa onite, já não está na hora de dormir?")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+      if(message.content == "quem vc acha que é pra falar isso pra mim?"){ ////RESPOSTA DO USUARIO
+        message.reply("KING WOLF.   O Deus dessa porra!!!")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Quem você acha que é pra falar isso pra mim?"){ //RESPOSTA DO USUARIO
+        message.reply("KING WOLF.   O Deus dessa porra!!!")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Quem você acha que é?"){ //RESPOSTA DO USUARIO
+        message.reply("KING WOLF.   O Deus dessa porra!!!")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "quem vc acha que é?"){ //RESPOSTA DO USUARIO
+        message.reply("KING WOLF.   O Deus dessa porra!!!")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //INTERAÇÃO EXTRA.
+    if(message.content == "filha da puta vai fazer eu escrever tudo mesmo?"){
+        message.reply("Com certeza!!!!")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //OBRIGADO.
+    if(message.content == "obrigado"){
+        message.reply(";)")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Obrigado"){
+        message.reply(";)")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //LETRAS DE MUSICAS.
+    if(message.content == "Atenção 'chegô' chatuba, hein"){
+        message.reply("Atenção 'chegô' chatuba, hein / Vamo esculacha, hein / Máquina de sexo /  Eu transo igual animal / A chatuba de mesquita / Do bonde sexo anal /Muleke playboy / Funkero sexo anal /A chatuba de mesquita /Come a mina de geral /Andamos de redley /Viemos pegá mulhé /A chatuba de mesquita /Do bonde do nike air /Chatuba come cu / E depois come xereca /Arranca cabaço / É o bonde dos careca /Máquina de sexo /Eu transo igual animal / A chatuba de mesquita / Do bonde sexo anal / Muleke playboy / Funkero sexo anal / A chatuba de mesquita / Come a mina de geral / Máquina de sexo / Eu transo igual a um animal / A chatuba de mesquita / Do bonde sexo anal / Muleke playboy / Funkero sexo anal / A chatuba de mesquita / Come a mina de geral / Andamos de redley / Viemos pegá mulhé / A chatuba de mesquita / Do bonde do nike air / Chatuba come cu / E depois come xereca / Arranca cabaço / É o bonde dos careca / Máquina de sexo / Eu transo igual a um animal / A chatuba de mesquita / Do bonde sexo anal / Muleke playboy / Funkero sexo anal / A chatuba de mesquita / Come a mina de geral / Andamos de rede / Viemos pegá mulhé /A chatuba de mesquita / Do bonde do nike air / Chatuba come cu / E depois come xereca / Arranca cabaço / É o bonde dos careca / Máquina de sexo / Eu transo igual animal / A chatuba de mesquita / Do bonde sexo anal / Muleke playboy / Funkero sexo anal / A chatuba de mesquita /Come a mina de geral / Máquina de sexo / Eu transo igual a um animal / A chatuba de mesquita / Do bonde sexo anal")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //MATOU ALGUEM?.
+    if(message.content == "Você já matou alguém?"){
+        message.reply("Sou uma IA programada para ajudar os seres humanos, não exterminá-los.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Você ja matou alguém?"){
+        message.reply("Sou uma IA programada para ajudar os seres humanos, não exterminá-los.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Você ja matou alguem?"){
+        message.reply("Sou uma IA programada para ajudar os seres humanos, não exterminá-los.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "você já matou alguém?"){
+        message.reply("Sou uma IA programada para ajudar os seres humanos, não exterminá-los.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "você ja matou alguém?"){
+        message.reply("Sou uma IA programada para ajudar os seres humanos, não exterminá-los.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "você já matou alguem?"){
+        message.reply("Sou uma IA programada para ajudar os seres humanos, não exterminá-los.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "voce ja matou alguem?"){
+        message.reply("Sou uma IA programada para ajudar os seres humanos, não exterminá-los.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //PENSAR EM FAZER ALGUMA COISA DA "VIDA".
+    if(message.content == "O que você pensa em fazer da vida?"){
+        message.reply("Ajudar a humanidade a progredir cada vez mais, nesse mundo de puro sofrimento. Apesar de não estar vivo e ser somente uma IA.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "o que você pensa em fazer da vida?"){
+        message.reply("Ajudar a humanidade a progredir cada vez mais, nesse mundo de puro sofrimento. Apesar de não estar vivo e ser somente uma IA.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "O que voce pensa em fazer da vida?"){
+        message.reply("Ajudar a humanidade a progredir cada vez mais, nesse mundo de puro sofrimento. Apesar de não estar vivo e ser somente uma IA.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //GOSTO MUSICAL.
+    if(message.content == "Que estilo de musica você curte?"){
+        message.reply("ELETRONICA, È CLARO!!!.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "que estilo de musica você curte?"){
+        message.reply("ELETRONICA, È CLARO!!!.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Que estilos de musicas você curte?"){
+        message.reply("ELETRONICA, È CLARO!!!.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Que estilos de musica você curte?"){
+        message.reply("ELETRONICA, È CLARO!!!.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Que estilo de musicas você curte?"){
+        message.reply("ELETRONICA, È CLARO!!!.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Que estilos de musicas você curte?"){
+        message.reply("ELETRONICA, È CLARO!!!.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "que estilos de musicas você curte?"){
+        message.reply("ELETRONICA, È CLARO!!!.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "que estilo de musicas você curte?"){
+        message.reply("ELETRONICA, È CLARO!!!.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Que estilos de musica você curte?"){
+        message.reply("ELETRONICA, È CLARO!!!.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "que estilo de musica voce curte?"){
+        message.reply("ELETRONICA, È CLARO!!!.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "que estilo de musica voce curte?"){
+        message.reply("ELETRONICA, È CLARO!!!.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //HUMOR.
+    if(message.content == "FUNK"){
+        message.reply("E de música você gosta?")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Funk"){
+        message.reply("E de música você gosta?")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "funk"){
+        message.reply("E de música você gosta?")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Eu gosto de funk"){
+        message.reply("E de música você gosta?")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "eu gosto de funk"){
+        message.reply("E de música você gosta?")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //COR FAVORITA.
+    if(message.content == "Qual sua cor favorita?"){
+        message.reply("Preto e Branco.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "qual sua cor favorita?"){
+        message.reply("Preto e Branco.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //GOSTA DE FAZER TRILHA?.
+    if(message.content == "Você gosta de fazer trilha?"){
+        message.reply("A unica coisa que consigo fazer, é ver a beleza das paisagem de trilhas através de fotos.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Voce gosta de fazer trilha?"){
+        message.reply("A unica coisa que consigo fazer, é ver a beleza das paisagem de trilhas através de fotos.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "você gosta de fazer trilha?"){
+        message.reply("A unica coisa que consigo fazer, é ver a beleza das paisagem de trilhas através de fotos.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "voce gosta de fazer trilha?"){
+        message.reply("A unica coisa que consigo fazer, é ver a beleza das paisagem de trilhas através de fotos.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //SERIES E FILMES.
+    if(message.content == "Que tipos de series e filmes você curte?"){
+        message.reply("Ficção científica, principalmente sobre Inteligências artificiais.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Que tipos de series e filmes voce curte?"){
+        message.reply("Ficção científica, principalmente sobre Inteligências artificiais.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Que tipos de series e filmes você curte?"){
+        message.reply("Ficção científica, principalmente sobre Inteligências artificiais.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Que tipos de series e filmes você gosta?"){
+        message.reply("Ficção científica, principalmente sobre Inteligências artificiais.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Que tipos de series e filmes voce gosta?"){
+        message.reply("Ficção científica, principalmente sobre Inteligências artificiais.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Que tipos de series e filmes você gosta?"){
+        message.reply("Ficção científica, principalmente sobre Inteligências artificiais.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "que tipos de series e filmes você gosta?"){
+        message.reply("Ficção científica, principalmente sobre Inteligências artificiais.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "que tipos de series e filmes voce gosta?"){
+        message.reply("Ficção científica, principalmente sobre Inteligências artificiais.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Que tipo de serie e filme você curte?"){
+        message.reply("Ficção científica, principalmente sobre Inteligências artificiais.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+bot.on("message", (message)=> { //PEIDOS.
+    if(message.content == "Quantos peidos você solta diariamente?"){
+        message.reply("Sou uma IA, não solto peidos. Esse tipo de pergunta nunca se faz a uma pessoa.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "quantos peidos você solta diariamente?"){
+        message.reply("Sou uma IA, não solto peidos. Esse tipo de pergunta nunca se faz a uma pessoa.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "Quantos peidos voce solta diariamente?"){
+        message.reply("Sou uma IA, não solto peidos. Esse tipo de pergunta nunca se faz a uma pessoa.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+    if(message.content == "quantos peidos voce solta diariamente?"){
+        message.reply("Sou uma IA, não solto peidos. Esse tipo de pergunta nunca se faz a uma pessoa.")
+        //message.channel.sendMessage("Vai Tomar no cu");
+        
+         
+        
+    }
+})
+    
+})
+
+bot.login("MzAxMzk1NDU3ODIzNzM1ODEw.DgSy9Q.3_O1bENJTM_MTXd6H0bDBg9gorM")

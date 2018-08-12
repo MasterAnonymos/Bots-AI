@@ -1,0 +1,1 @@
+comando para o jogador selecionar a lista de pokemons daquela geração.
